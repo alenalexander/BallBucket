@@ -16,6 +16,9 @@
 		2F7BB23B1B7C785600B234F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F7BB23A1B7C785600B234F3 /* Images.xcassets */; };
 		2F7BB23E1B7C785600B234F3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F7BB23C1B7C785600B234F3 /* LaunchScreen.xib */; };
 		2F7BB24A1B7C785600B234F3 /* BallBucketTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7BB2491B7C785600B234F3 /* BallBucketTests.m */; };
+		2F7BB2591B7C7E5800B234F3 /* ballred.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F7BB2571B7C7E5800B234F3 /* ballred.png */; };
+		2F7BB25A1B7C7E5800B234F3 /* bucketwhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F7BB2581B7C7E5800B234F3 /* bucketwhite.png */; };
+		2F7BB25C1B7C810C00B234F3 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F7BB25B1B7C810C00B234F3 /* SpriteKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		2F7BB2431B7C785600B234F3 /* BallBucketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BallBucketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F7BB2481B7C785600B234F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F7BB2491B7C785600B234F3 /* BallBucketTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BallBucketTests.m; sourceTree = "<group>"; };
+		2F7BB2571B7C7E5800B234F3 /* ballred.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ballred.png; sourceTree = "<group>"; };
+		2F7BB2581B7C7E5800B234F3 /* bucketwhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bucketwhite.png; sourceTree = "<group>"; };
+		2F7BB25B1B7C810C00B234F3 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F7BB25C1B7C810C00B234F3 /* SpriteKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +75,9 @@
 		2F7BB21C1B7C785600B234F3 = {
 			isa = PBXGroup;
 			children = (
+				2F7BB25B1B7C810C00B234F3 /* SpriteKit.framework */,
+				2F7BB2571B7C7E5800B234F3 /* ballred.png */,
+				2F7BB2581B7C7E5800B234F3 /* bucketwhite.png */,
 				2F7BB2271B7C785600B234F3 /* BallBucket */,
 				2F7BB2461B7C785600B234F3 /* BallBucketTests */,
 				2F7BB2261B7C785600B234F3 /* Products */,
@@ -208,9 +218,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F7BB23E1B7C785600B234F3 /* LaunchScreen.xib in Resources */,
+				2F7BB25A1B7C7E5800B234F3 /* bucketwhite.png in Resources */,
 				2F7BB23B1B7C785600B234F3 /* Images.xcassets in Resources */,
 				2F7BB2331B7C785600B234F3 /* GameScene.sks in Resources */,
 				2F7BB2391B7C785600B234F3 /* Main.storyboard in Resources */,
+				2F7BB2591B7C7E5800B234F3 /* ballred.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +440,7 @@
 				2F7BB24F1B7C785600B234F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F7BB2501B7C785600B234F3 /* Build configuration list for PBXNativeTarget "BallBucketTests" */ = {
 			isa = XCConfigurationList;
@@ -436,6 +449,7 @@
 				2F7BB2521B7C785600B234F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
