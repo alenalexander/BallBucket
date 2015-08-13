@@ -13,8 +13,8 @@
 @property(nonatomic) SKSpriteNode *ballnode;
 @end
 
-static const uint32_t ballcatgry = 0x1;         // ballcategory = 00000000000000000000000000000001
-static const uint32_t bucketctgry = 0x1 << 1;   // bucketcategory = 00000000000000000000000000000010(  '<<' represents left shifted value of ball category)
+static const uint32_t ballcatgry = 0x1;          // ballcategory = 00000000000000000000000000000001
+static const uint32_t bucketctgry = 0x1 << 1;    // bucketcategory = 00000000000000000000000000000010(  '<<' represents left shifted value of ball category)
 
 @implementation GameScene
 
