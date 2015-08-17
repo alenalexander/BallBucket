@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C18D28CC-B224-4D18-A053-70450716C85E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BallBucket</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>35749321E50CEF61DEC92121AE0C7494D931B7BD</key>
+		<string>https://github.com/alenalexander/BallBucket.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BallBucket.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>35749321E50CEF61DEC92121AE0C7494D931B7BD</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/alenalexander/BallBucket.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>35749321E50CEF61DEC92121AE0C7494D931B7BD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>35749321E50CEF61DEC92121AE0C7494D931B7BD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BallBucket</string>
+		</dict>
+	</array>
+</dict>
+</plist>
